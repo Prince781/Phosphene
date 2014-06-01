@@ -30,7 +30,7 @@ dir_empty() {
 install_theme() {
 	local install_dir=$1
 	if [ $(dir_empty $install_dir) = false ]; then
-		echo "Overwrite ${install_dir}? (y/n): "
+		printf "Overwrite ${install_dir}? (y/n): "
 		read overwrite
 		if [ $overwrite = "n" ]; then
 			echo "Quitting."
