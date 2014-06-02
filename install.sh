@@ -41,6 +41,7 @@ install_theme() {
 	if [ ! -d $install_dir ]; then mkdir -p $install_dir; fi
 
 	for f in ${folders[@]}; do
+		rm -rf $install_dir/$f
 		cp -rf $f $install_dir/$f
 	done
 
