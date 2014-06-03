@@ -21,7 +21,7 @@
 
 /* default text style */
 stage {
-	font-family: "Akzidenz-Grotesk Pro", sans-serif;
+	font-family: "Cantarell", sans-serif; /* "Akzidenz-Grotesk Pro" */
 	font-size: 9pt;
 	color: white;
 }

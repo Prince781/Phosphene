@@ -1,9 +1,9 @@
 /* dark theme */
-@define-color theme_base_color #535353;
-@define-color theme_alt_color #484a4d;
-@define-color theme_text_color #dcf3fc;
-@define-color theme_selected_bg_color #2b5d6b;
-@define-color theme_selected_fg_color shade(@theme_base_color, 1.5);
+@define-color theme_base_color #484a4d;
+@define-color theme_alt_color shade(@theme_base_color, 0.8);
+@define-color theme_text_color #e3f3fc;
+@define-color theme_selected_bg_color #5b8d9b;
+@define-color theme_selected_fg_color shade(@theme_selected_bg_color, 0.4);
 
 @define-color placeholder_text_color shade(@text_color, 3.5);
 
@@ -23,7 +23,7 @@
 @define-color menu_bg_color @theme_base_color;
 @define-color menu_fg_color shade(@theme_text_color, 0.2);
 
-@define-color menu_controls_color shade (@theme_text_color, 0.9);
+@define-color menu_controls_color shade(@theme_text_color, 3.9);
 
 @define-color menu_combobox_border @theme_selected_bg_color;
 @define-color menu_separator shade (@menu_bg_color, 0.96);
@@ -66,7 +66,7 @@
 @define-color insensitive_scale_borders @insensitive_borders;
 
 @define-color trough_bg_color @theme_alt_color;
-@define-color trough_bg_alt_color #4c4c4f; /* color for troughs on toolbars */
+@define-color trough_bg_alt_color #2d2e30; /* color for troughs on toolbars */
 @define-color insensitive_trough_bg_color @trough_bg_alt_color;
 
 @define-color scrollbar_trough transparent;
